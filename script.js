@@ -121,7 +121,7 @@ runTest(
 );
 
 runTest(
-	"StaticFunction === StaticFunction.bind(null)?",
+	"StaticFunction.bind(null) === StaticFunction.bind(null)?",
 	FunctionContainer.StaticFunction.bind(null),
 	FunctionContainer.StaticFunction.bind(null)
 );
